@@ -67,7 +67,7 @@ def send(duty:Duty,member:Member,date:str) -> bool:
 
             🗓️ {date} — don’t forget! ⏰✨
        '''
-    return send_notification(textwrap.dedent(content).strip(), "120363422151287330@g.us", member.phoneId)
+    return send_notification(textwrap.dedent(content).strip(), "120363333596019764@g.us", member.phoneId)
 
 
 if __name__ == "__main__":
