@@ -2,7 +2,7 @@
 import json
 from typing import List
 from datetime import datetime
-from Checker import check_need_notified_duties
+from Checker import check_need_notified_duties, now
 from Notifyer import send_notification
 from model.models import Duty, Group, Member
 import textwrap
@@ -81,7 +81,7 @@ if __name__ == "__main__":
       next_duty_member_id =  get_next_duty_member_id(duty.assigned_to, group)
       next_member = get_member_by_id(next_duty_member_id,group)
       
-      new_assign_date = datetime.now().strftime("%Y-%m-%d")
+      new_assign_date = now().strftime("%Y-%m-%d")
       
       if next_member != None:
        

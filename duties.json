@@ -2,19 +2,19 @@
     {
         "duty_name": "🗑️ bins out duty",
         "assigned_to": 2,
-        "assigned_date": "2025-08-12",
+        "assigned_date": "2025-08-06",
         "frequency": 14
     },
     {
         "duty_name": "♻️ trash out duty",
-        "assigned_to": 2,
-        "assigned_date": "2025-08-12",
+        "assigned_to": 1,
+        "assigned_date": "2025-08-11",
         "frequency": 7
     },
     {
         "duty_name": "🧺 kitchen cloth duty",
         "assigned_to": 1,
-        "assigned_date": "2025-08-07",
+        "assigned_date": "2025-08-11",
         "frequency": 7
     }
 ]

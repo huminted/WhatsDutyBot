@@ -1,23 +1,28 @@
 from datetime import datetime, timedelta
 
 from typing import List
+from zoneinfo import ZoneInfo
 
 from model.models import  Duty
+import pytz
 
+
+
+
+def now() -> datetime:
+    ireland_tz = pytz.timezone("Europe/Dublin")
+    now = datetime.now()
+    return now.astimezone(ireland_tz)
 
 
 def _within_period(target_time: datetime,frequency_days: int) -> bool:
-    now = datetime.now()
-    return abs(target_time - now) <= timedelta(days=frequency_days)
+    return abs(target_time - now()) <= timedelta(days=frequency_days)
 
 
-
-
-def _readTimeFromStr(dt_str:str)->datetime:
-    return datetime.strptime(dt_str.replace(" ",""), "%Y-%m-%d")
-
-
-
+def _readTimeFromStr(date_str) -> datetime:
+    dt_naive = datetime.strptime(date_str, "%Y-%m-%d")
+    dt_aware = dt_naive.replace(tzinfo=ZoneInfo("Europe/Dublin"))
+    return dt_aware
 
 
 def check_need_notified_duties(duties:List[Duty]) -> List[Duty]:
