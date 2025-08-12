@@ -1,0 +1,20 @@
+[
+    {
+        "duty_name": "🗑️ bins out duty",
+        "assigned_to": 2,
+        "assigned_date": "2025-08-12",
+        "frequency": 14
+    },
+    {
+        "duty_name": "♻️ trash out duty",
+        "assigned_to": 2,
+        "assigned_date": "2025-08-12",
+        "frequency": 7
+    },
+    {
+        "duty_name": "🧺 kitchen cloth duty",
+        "assigned_to": 1,
+        "assigned_date": "2025-08-07",
+        "frequency": 7
+    }
+]

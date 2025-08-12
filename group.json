@@ -1,0 +1,23 @@
+{
+    "group": {
+        "name": "H91 KT3C",
+        "chatId": "120363422151287330@g.us",
+        "members": [
+            {
+                "id": 1,
+                "name": "Min",
+                "phoneId": "8617738417601"
+            },
+            {
+                "id": 2,
+                "name": "Rui",
+                "phoneId": "8618881203470"
+            },
+            {
+                "id": 3,
+                "name": "Viren",
+                "phoneId": "8617738417601"
+            }
+        ]
+    }
+}
