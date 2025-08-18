@@ -1,12 +1,21 @@
 [
     {
+<<<<<<< HEAD
         "duty_name": "🗑️ bins out duty",
         "assigned_to": 2,
+=======
+        "duty_name": "♻️ yard bins out duty",
+        "assigned_to": 3,
+>>>>>>> 75ecabe (Update)
         "assigned_date": "2025-08-06",
         "frequency": 14
     },
     {
+<<<<<<< HEAD
         "duty_name": "♻️ trash out duty",
+=======
+        "duty_name": "🗑️ kitchen bins out duty",
+>>>>>>> 75ecabe (Update)
         "assigned_to": 1,
         "assigned_date": "2025-08-11",
         "frequency": 7
@@ -15,6 +24,10 @@
         "duty_name": "🧺 kitchen cloth duty",
         "assigned_to": 1,
         "assigned_date": "2025-08-11",
+<<<<<<< HEAD
         "frequency": 7
+=======
+        "frequency": 1000
+>>>>>>> 75ecabe (Update)
     }
 ]
