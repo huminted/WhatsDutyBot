@@ -2,4 +2,3 @@
 git add .
 git commit -m "[Bot] Update Duties"
 git push
-/home/ubuntu/WhatsDutyBot/Run.sh
