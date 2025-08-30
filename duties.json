@@ -1,14 +1,14 @@
 [
     {
         "duty_name": "♻️ yard bins out duty",
-        "assigned_to": 3,
-        "assigned_date": "2025-08-04",
+        "assigned_to": 1,
+        "assigned_date": "2025-08-18",
         "frequency": 14
     },
     {
         "duty_name": "🗑️ kitchen trash out duty",
-        "assigned_to": 1,
-        "assigned_date": "2025-08-11",
+        "assigned_to": 3,
+        "assigned_date": "2025-08-26",
         "frequency": 7
     },
     {
