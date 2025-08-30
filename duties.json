@@ -8,7 +8,13 @@
     {
         "duty_name": "🗑️ kitchen trash out duty",
         "assigned_to": 3,
-        "assigned_date": "2025-08-26",
+        "assigned_date": "2025-08-25",
+        "frequency": 7
+    },
+    {
+        "duty_name": "🍽️ Sunday dishwasher unloading duty",
+        "assigned_to": 3,
+        "assigned_date": "2025-08-25",
         "frequency": 7
     },
     {
