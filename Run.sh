@@ -1,4 +1,5 @@
-python3 Bot.py
+/usr/bin/python3 Bot.py
 git add .
 git commit -m "[Bot] Update Duties"
 git push
+/home/ubuntu/WhatsDutyBot/Run.sh
